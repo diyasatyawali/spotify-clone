@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: ;box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #000000;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+}
+.logo{
+    
+    margin-left: 30px;
+}
+.logo i
+{
+    font-size: 35px;
+    
+}
+.logo a {
+    color: #1db954;
+}
+.search h1{
+    color: #1db954;
+    font-size: 5vh;
+}
+.log-in--sign-up{
+    margin-right: 8px;
+}
+.log-in--sign-up button.sign-up{
+    height: 4vh;
+    width: 9vh;
+    border: none;
+    font-size: 17px;
+    margin-right: 20px;
+    background-color: #000000;
+}
+.log-in--sign-up button.sign-up a{
+    text-decoration: none;
+    color: #ff;
+}
+.log-in--sign-up button.sign-up:hover,button.sign-up a:hover{
+    transform: translate(0, -2px);
+    color: rgba(255, 255, 255, 0.241);
+}
+.log-in--sign-up button.log-in{
+    height: 7vh;
+    width: 15vh;
+    border-radius: 28px;
+    border: none;
+    font-size: 17px;
+}
+.log-in--sign-up button.log-in a{
+    text-decoration: none;
+    color: rgb(18,18,18, );
+    text-decoration: transparent;
+    padding:14px;
+}
+.log-in--sign-up button.log-in:hover,button.log-in a{
+    background-color: rgba(255, 255, 255, 0.822);
+    transform: translate(0, -2px);
+}
+
+iframe{
+    border: none;
+    border-radius: 9px;
+}

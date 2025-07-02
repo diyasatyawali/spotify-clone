@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify By Diya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./Pritam.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3>Music</h3>
+        </nav>
+    </header>
+    <div class="play-song">
+        <li class="song-item">
+            <span>01</span>
+            <img src="./tum se hi.jpg" alt="">
+            <h5>Tum se hi
+                <div class="subtitle">Pritam Chakraborty</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play" id="1"></i>
+        </li>
+       
+        <li class="song-item">
+            <span>02</span>
+            <img src="./tum mile.jpg" alt="">
+            <h5>Tum mile
+                <div class="subtitle">Pritam Chakraborty</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play" id="2"></i>
+        </li>
+        <li class="song-item">
+            <span>03</span>
+            <img src="what jhumka.jpg" alt="">
+            <h5>what jhumka
+                <div class="subtitle">Pritam Chakraborty</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play" id="1"></i>
+        </li>
+        <li class="song-item">
+            <span>04</span>
+            <img src="ae dil hai mushkil.webp" alt="">
+            <h5>ae dil hai mushkil
+                <div class="subtitle">Pritam Chakraborty</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play" id="1"></i>
+        </li>
+        <li class="song-item">
+            <span>05</span>
+            <img src="ye tune kya kiya.jpg" alt="">
+            <h5>yeh tune kya kiya
+                <div class="subtitle">Pritam Chakraborty</div>
+            </h5>
+            <i class="fa-solid playListPlay fa-play" id="1"></i>
+        </li>
+    </div>
+
+    <div class="content">
+        <h1>
+            Pritam Chakraborty
+        </h1>
+        <p>Pritam Chakraborty</p>
+
+        <footer>
+            <div class="music_bar">
+                <span id="current-start">0:00</span>
+                <div class="bar">
+                    <input type="range" id="seek" min="0" max="100">
+                    <div class="bar2" id="bar2"></div>
+                    <div class="dot"></div>
+
+                    </div>
+                    <span id="current-end">0:30</span>
+                    
+                </div>
+                <div class="icon">
+                    <i class="fa-solid-shuffle fa-music" data-mode="next"></i>
+                    <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="play" id="masterPlay" ></i>
+                    <i class="fa-solid fa-forward-step" id="next"></i>
+                </div>
+                <div class="vol">
+                    <i class="fa-solid fa-volume" id="vol-icon"></i>
+                    <input type="range" id="vol" min="0" max="100" >
+                    <div  class="dot" id="vol-dot"></div>
+                    <div class="vol-bar"></div>
+
+                </div>
+        </footer>
+
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
